@@ -20,8 +20,6 @@ function reduceToTotal(array, p=0){
   return array.reduce((sum, current)=> sum + current, p);
 }
 
-console.log(reduceToTotal([1,2,3]))
-
 function reduceToAllTrue(array){
 
 }
