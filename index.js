@@ -15,3 +15,7 @@ function mapToDouble(array){
 function mapToSquare(array){
   return array.map(n=> n*n);
 }
+
+function reduceToTotal(array, p){
+  
+}
