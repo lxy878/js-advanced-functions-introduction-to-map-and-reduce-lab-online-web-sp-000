@@ -21,7 +21,7 @@ function reduceToTotal(array, p=0){
 }
 
 function reduceToAllTrue(array){
-  return array.reduce((previous, current) => return false if !current)
+  return array.reduce((previous, current) => previous = false if !current)
 }
 
 function reduceToAnyTrue(array){
