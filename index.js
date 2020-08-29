@@ -1,7 +1,7 @@
 // Your code here
 
 function mapToNegativize(array){
-  array.map()
+  array.map(n => n*-1)
 }
 
 function mapToNoChange(array){
