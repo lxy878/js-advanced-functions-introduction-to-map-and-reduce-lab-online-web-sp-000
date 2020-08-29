@@ -4,7 +4,7 @@ function mapToNegativize(array){
   return array.map(n => n*-1);
 }
 
-console.log(mapToNegativize([1,-2,3]))
+console.log(mapToNegativize([1,-2,3,0]))
 function mapToNoChange(array){
 
 }
