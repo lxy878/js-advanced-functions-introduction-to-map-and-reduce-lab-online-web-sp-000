@@ -24,4 +24,6 @@ function reduceToAllTrue(array){
 
 }
 
-function reduceToAnyTrue(array)
+function reduceToAnyTrue(array){
+  
+}
