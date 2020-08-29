@@ -17,7 +17,7 @@ function mapToSquare(array){
 }
 
 function reduceToTotal(array, p){
-
+  return array.reduce((sum, current), p)
 }
 
 function reduceToAllTrue(array){
