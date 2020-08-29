@@ -38,17 +38,19 @@ function reduceToTotal(array, p=0){
 function reduceToAllTrue(array){
   // return array.reduce((previous=1, current) => current ? previous : previous = 0) == true;
 
+  let result = true;
   for (const v of array)
     if (!v)
-      return false;
-  return true;
+      result = false;
+  return result;
 }
 
 function reduceToAnyTrue(array){
   // return array.reduce((previous=0, current) => current ? previous=1 : previous ) == true;
 
+  let result = false;
   for (const v of array)
     if (v)
-      return true;
-  return false;
+      result = true;
+  return result;
 }
