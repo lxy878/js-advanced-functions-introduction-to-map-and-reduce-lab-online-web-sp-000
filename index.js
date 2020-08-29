@@ -5,7 +5,7 @@ function mapToNegativize(array){
 }
 
 function mapToNoChange(array){
-
+  return array.map()
 }
 
 function mapToDouble(array){
