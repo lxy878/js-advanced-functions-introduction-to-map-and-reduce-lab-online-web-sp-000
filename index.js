@@ -16,7 +16,7 @@ function mapToSquare(array){
   return array.map(n=> n*n);
 }
 
-function reduceToTotal(array, p){
+function reduceToTotal(array, p=0){
   return array.reduce((sum, current)=> sum + current, p);
 }
 
