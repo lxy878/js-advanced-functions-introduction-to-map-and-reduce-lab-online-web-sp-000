@@ -13,5 +13,5 @@ function mapToDouble(array){
 }
 
 function mapToSquare(array){
-  // return array.map(n=> n**);
+  return array.map(n=> n*n);
 }
