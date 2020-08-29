@@ -20,4 +20,4 @@ function reduceToTotal(array, p){
 
 }
 
-function reduceToAllTrue(array, p)
+function reduceToAllTrue(array)
