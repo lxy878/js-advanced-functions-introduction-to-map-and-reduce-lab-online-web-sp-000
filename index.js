@@ -9,7 +9,7 @@ function mapToNoChange(array){
 }
 
 function mapToDouble(array){
-
+  return array.map(n=>n*2);
 }
 
 function mapToSquare(array){
